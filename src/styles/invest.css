@@ -1,0 +1,39 @@
+body {
+    --dot-bg: black !important;
+    --dot-color: white !important;
+    --dot-size: 1px !important;
+    --dot-space: 22px !important;
+    background: linear-gradient(
+          90deg,
+          var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+          transparent 1%
+        )
+        center / var(--dot-space) var(--dot-space),
+      linear-gradient(
+          var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+          transparent 1%
+        )
+        center / var(--dot-space) var(--dot-space),
+      var(--dot-color) !important;
+  }
+
+.invest-page-container{
+    border: 3px solid #00d395;
+
+  border-radius: 10px;
+  background: linear-gradient(300deg, #00ffb362, black);
+  background-size: 180% 180%;
+  animation: form 10s ease infinite;
+  width: 100%;
+}
+@keyframes form {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

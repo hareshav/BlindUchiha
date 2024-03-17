@@ -1,0 +1,15 @@
+.cardslide {
+  display: flex;
+  height: 95vh;
+  width: 100%;
+}
+.para {
+  margin: auto;
+  width: 93%;
+  display: flex;
+  justify-content: center;
+}
+.para::first-letter {
+  font-size: 2em;
+  color: rgb(16, 154, 154);
+}

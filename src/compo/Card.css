@@ -1,0 +1,56 @@
+.threecard {
+  width: 100%;
+}
+.t {
+  height: 400px;
+  width: 350px;
+  display: grid;
+  grid-template-rows: 0.5fr 1.8fr 0.7fr;
+
+  background-color: rgb(249, 249, 249);
+  animation: form 1s ease infinite;
+  padding: 20px;
+
+  color: black;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  border: 1px solid grey;
+  backdrop-filter: blur(5px);
+
+  overflow: hidden;
+
+  margin: 30px;
+}
+.p {
+  font-size: larger;
+  padding: 10px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 12px;
+  margin-bottom: 20px;
+}
+.b button {
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: #00d396;
+  color: beige;
+}
+.threecard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.t:hover {
+  box-shadow: 0px 0px 25px rgba(186, 186, 186, 0.6);
+
+  transition: box-shadow 0.6s ease;
+}
+.t > h2 {
+  color: rgb(16, 154, 154);
+}
+.arrow {
+  color: rgb(16, 154, 154);
+  
+}

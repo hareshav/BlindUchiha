@@ -1,0 +1,57 @@
+.pmain {
+  height: fit-content;
+  background-color: black;
+  display: flex;
+  flex-direction: column-reverse;
+  color: aqua;
+}
+.pflex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: 90%;
+}
+.pgrid {
+  margin-top: 10%;
+  display: grid;
+  height: 27rem;
+}
+.one {
+  grid-template-columns: 2fr 1fr;
+}
+.two {
+  grid-template-columns: 1fr 2fr;
+}
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  background-color: grey;
+}
+.picture img {
+  height: 100%;
+  width: 100%;
+}
+.content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  font-size: 1.4rem;
+}
+.popbtn {
+  width: 100px;
+  margin: auto;
+}
+.field {
+  width: 100%;
+}
+.popup {
+  background-color: rgb(14, 154, 154);
+  color: black;
+}

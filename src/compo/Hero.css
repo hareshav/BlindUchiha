@@ -1,0 +1,80 @@
+.maindiv {
+  height: 60vh;
+  --dot-bg: black;
+  --dot-color: white;
+  --dot-size: 1px;
+  --dot-space: 22px;
+  background: linear-gradient(
+        90deg,
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    var(--dot-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4%;
+  padding-bottom: 0;
+}
+
+.containerhero {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  flex-direction: column;
+  gap: 20px;
+  color: rgb(14, 154, 154);
+}
+
+.subdiv {
+  background-color: white;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.i {
+  background-color: red;
+  height: 100px;
+  width: 200px;
+}
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  color: rgb(14, 154, 154);
+  border: 0 !important;
+}
+
+/* Change active tab color */
+.nav-tabs .nav-link.active {
+  background-color: black;
+  color: #00d395;
+  margin-bottom: black;
+}
+.content h5 {
+  font-size: 200% !important;
+}
+.content {
+  height: 100%;
+  width: 83%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.BTN {
+  margin-top: 3%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(14, 154, 154);
+}

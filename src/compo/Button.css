@@ -1,0 +1,9 @@
+.BTN:hover {
+  background-color: white;
+  color: rgb(14, 154, 154);
+  border: 0;
+}
+.BTN {
+  border: 0;
+  margin-right: 10px;
+}

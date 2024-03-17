@@ -1,0 +1,57 @@
+.bcard {
+  height: 60vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  margin-bottom: 5%;
+  color: aliceblue;
+  position: relative; /* Add this line */
+}
+
+.icard1,
+.icard2 {
+  height: 80%;
+  width: 80%;
+  color: rgb(255, 255, 255);
+  font-weight: 1000;
+  display: grid;
+  grid-template-rows: 0.6fr 1.4fr;
+  padding-left: 7%;
+  padding-right: 7%;
+  border-radius: 10px;
+  column-gap: 0;
+  position: relative; /* Add this line */
+}
+
+.icard1::before, /* Add this block */
+  .icard2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  z-index: -1; /* Ensure the overlay is behind the content */
+  border-radius: 10px; /* Match the border radius of the card */
+}
+
+.icard1 {
+  background-image: url("src/styles/b1.jpg");
+}
+
+.icard2 {
+  background-image: url("src/styles/b2.jpg");
+  background-size: cover;
+}
+
+.body {
+  padding-bottom: 20%;
+}
+
+.head {
+  margin-bottom: 10px;
+  padding-top: 20%;
+  font-size: 20px;
+}

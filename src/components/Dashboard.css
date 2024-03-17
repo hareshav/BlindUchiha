@@ -1,0 +1,61 @@
+.dashmain {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.dashcircle {
+  height: 16%;
+  width: 100%;
+  background-color: aqua;
+}
+.dcard {
+  height: 250px;
+  width: 250px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.dcards {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  height: 43%;
+}
+.dashcircle {
+  display: flex;
+  justify-content: center;
+}
+.dashcircle > .pcard {
+  margin-top: 5%;
+}
+.img img {
+  height: 310px;
+  width: 310px;
+  justify-content: center;
+  margin-left: 16px;
+  z-index: 1;
+}
+.pcard {
+  margin: auto;
+  padding: 10px;
+  width: 240px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+.pcard p {
+  margin-bottom: 4%;
+}
+.dcards > .dcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}

@@ -1,0 +1,142 @@
+.App {
+    text-align: center;
+    background-color: #F6F6F7;
+}
+
+.newlinks {
+    text-align: left;
+}
+
+.full {
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+.chat-title {
+    margin-bottom: 50px;
+}
+
+.chat-message {
+    background-color: #f2f2f2;
+    margin: 1em 15em;
+    padding: 1em;
+    /* max-height: 450px; */
+    overflow-y: auto;
+    overflow-x: 70%;
+    border-radius: 25px;
+    color: grey;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.message-right {
+    /* background: #91fbff; */
+    border-radius: 25px;
+    padding: .5em 1em !important;
+    margin-left: 1em;
+    max-width: 80% !important;
+    width: 70%;
+}
+
+
+/* .send-btn {
+    height: 40px;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    border: 0px;
+    color: #007bff;
+} */
+
+.message-left {
+    /* background: lightgray; */
+    border-radius: 25px;
+    padding: .5em 1em !important;
+    margin: 1em;
+    max-width: 70% !important;
+}
+
+.message-text {
+    font-size: 20px;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+.icon {
+    /* height: 10px;
+    width: 10px; */
+    margin-right: 5px;
+}
+
+.me-3 {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    margin-left: 15px;
+}
+
+.me-3:hover {
+    background-color: #0056b3;
+}
+
+.chat-card {
+    margin: 10px;
+}
+
+.card {
+    width: 18rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    padding: .20rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-label {
+    margin-left: 5px;
+    background-color: #F6F6F7;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form-control {
+    width: 70% !important;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* margin-top: 10px; */
+    height: 50px;
+}
+
+.card-body {
+    padding: .1rem;
+}
+
+.card-text {
+    font-size: 16px;
+}
